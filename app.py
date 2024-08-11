@@ -36,7 +36,6 @@ Response Guidelines:
         messages=message,
         model="gpt-4o-mini",
     )
-    print("chatgpt -done")
     return response.choices[0].message.content
 
 
@@ -60,7 +59,6 @@ def text2speech(text):
     if response.status_code == 200:
         with open(output_path, "wb") as audio_file:
             audio_file.write(response.content)
-            print("11labs done!")
         return output_path
     else:
         raise Exception(f"Text-to-Speech conversion failed with status code {response.status_code}: {response.text}")
@@ -75,7 +73,6 @@ def autoplay_audio(file_path:str):
             </audio>
             """
         st.markdown(md,unsafe_allow_html=True)
-        print("autoplay done!")
 
 
 
