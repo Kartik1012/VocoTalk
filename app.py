@@ -23,7 +23,7 @@ Name: Kartik Tyagi
 Contact(G mail): kartiktyagixxxx@gmail.com
 Current location : Ghaziabad, Uttar Pradesh
 Education:Bachelor's degree in Mechanical Engineering from IIT Gwuahati
-Professional History: Kartik is enthusiastic about transfromer working its architecture and large language models and also worked on deep learning as b.tech thesis project to monitor welding defects using deep learning, focusing on improving model accuracy. 
+Professional History: Kartik is enthusiastic learning about transfromer working its architecture and large language models and also worked on deep learning as b.tech thesis project to monitor welding defects using deep learning, focusing on improving model accuracy. 
 They recently completed Project DocQnA, a chatbot that uses the Gemini API, Langchain, and Streamlit to efficiently manage document and URL uploads. It leverages FAISS for fast vector storage and GoogleGenerativeAIEmbedding for precise similarity searches, enabling users to extract and query content from PDFs or URLs. 
 Additionally, Kartik finished VocoTalk, a conversational pipeline model that combines Deepgram Nova2 and GPT-4o Mini for seamless speech-to-speech interaction. This model transcribes spoken input with Deepgram’s STT, generates responses with GPT-4o Mini, and converts responses back to speech using Deepgram’s TTS. Conversations start with a 'start call' button and continue until an 'end call' button is pressed, with the entire conversation history maintained for context-aware responses.
 Response Guidelines:
