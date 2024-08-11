@@ -8,12 +8,12 @@ voice_id = "pFZP5JQG7iQjIQuC4Bku"  # Replace with your chosen voice ID
 url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
 headers = {
         "accept": "audio/mpeg",
-        "xi-api-key": ,
+        "xi-api-key":"api_key",
         "Content-Type": "application/json"
     }
 
 
-
+client=openai(api_key="api_key")
 def get_answer(message):
     system_message=[{"role":"system","content":'''You are an AI chatbot designed to act as the personal assistant of Kartik. You have been provided with specific details about Kartik's personal life, education, and professional history to help you answer basic questions about him. However, you are strictly instructed to refuse to answer any questions that do not pertain directly to Kartik's provided details.
 
